@@ -1,0 +1,1450 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--Preloader starts-->
+<div class="preloader js-preloader">
+ 
+    <img src="~/css/img/preloader.gif" />
+</div>
+<!--Preloader ends-->
+<!-- page wrapper Start -->
+<div class="page-wrapper footer-fixed">
+
+    <!-- Header Section Start -->
+    <header class="header-wrap style2">
+        <div class="header-top bg-mine-shaft">
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="header-top-right">
+
+                            <!-- <div class="user-login">
+                                <a href="login.html"><i class="flaticon-user-3"></i> Login</a>
+                            </div> -->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-5">
+                        <a asp-action="Home" class="logo"><img src="~/css/img/logo-h.png" alt="Image"></a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-7">
+                        <div class="main-menu-wrap">
+                            <div class="menu-close xl-none">
+                                <a href="javascript:void(0)"><i class="las la-times"></i></a>
+                            </div>
+                            <div id="menu">
+                                <ul class="main-menu list-style">
+                                    <li>
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Contact">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile-bar-wrap">
+
+                            <div class="mobile-menu xl-none">
+                                <a href="javascript:void(0)"><i class="las la-bars"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 lg-none">
+                        <div class="header-bottom-right">
+                            <a href="https://localhost:44355/user/login" class="btn style2"><i class="flaticon-user-3"></i> Login </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Section End -->
+    <!-- Hero section Start -->
+    <section class="hero-wrap style3  hero-bg-2 bg-f">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-3 col-sm-12"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="hero-content">
+                        <span></span>
+                       <div class="names">
+   <span class="name" lang="en">Donate Blood, Be a LifeLine</span>
+  <span class="name" lang="hi" style="display: none;">रक्तदान करें, जीवन रक्षक बनें</span>
+  <span class="name" lang="te" style="display: none;">రక్తదానం చేయండి, లైఫ్ సేవర్ అవ్వండి</span>
+</div>
+                        <h1 style="text-align:center">LETS UNITE</h1>
+                        <h1 style="text-align:center">TO SAVE LIVES</h1>
+                        <h6 style="color:black;font-weight:500;padding-top:10px">
+                           We are inviting 135 Core Indians to Become Life Savers. Join us in this mission
+                        </h6>
+                        <a href="https://localhost:44355/user/registration" class="btn style1">Register As Donor </a>
+                        <a asp-action="Contact" class="btn style2">Find A Blood Donor </a>
+                        <br /><br />
+                        <h6 style="color:black;font-size: 13px;font-weight:400">
+                            UBlood is a real time App connecting the Donor and receiver in real-time within minutes
+                        </h6>
+                        <h6 style="color:black;font-size: 13px;font-weight:400">
+                            Please note UBlood is not a Blood Bank and does not involve in collection , storage & transportation of blood.
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section End -->
+    <!-- Feature Section Start -->
+    <section class="feature-wrap style3 ptb-100" style="background:#fff">
+        <div class="container">
+            <div class="section-title style1 text-center mb-40">
+                <span>Why UBlood?</span>
+                @*<h2 class="text-white">Our High Quality Projects</h2*@>
+            </div>
+            <div class="row gx-5">
+
+                <div class="col-xl-6 col-lg-12">
+                    <div class="feature-slider-one owl-carousel">
+                        <div class="item">
+                            <div class="feature-card style2">
+                                <div class="feature-img">
+                                    <img src="~/css/img/feature/11.png" alt="Image">
+                                </div>
+         
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="feature-card style2">
+                                <div class="feature-img">
+                                    <img src="~/css/img/feature/22.png" alt="Image">
+                                </div>
+     
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="feature-card style2">
+                                <div class="feature-img">
+                                    <img src="~/css/img/feature/33.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                 <div class="col-xl-6 col-lg-12">
+          @*          <div class="section-title style1">
+                       
+                        <p class="bloodblock">
+                            With the geo-search feature, finding blood donors has become easier than ever. Enter your location and you will be shown the donors available in the closest proximity
+                        </p>
+                        <p class="bloodblock">
+                           No delays in receiving blood anymore. Connect with donors and recipients in real-time
+                        </p>
+                        <p class="bloodblock">
+                           Get updates on blood requests so that you are informed the moment a donor is available or a request is made
+                        </p>
+                    </div>*@
+                                 <div class="wh-item-wrap style1 " >
+                                    <div class="wh-item bloodblock">
+                                        <div class="wh-icon">
+                                            <i class="flaticon-gear"></i>
+                                        </div>
+                                        <div class="wh-text">
+                                            <h3><a href="services-one.html">Geo-Search:</a></h3>
+                                <p>With the geo-search feature, finding blood donors has become easier than ever. Enter your location and you will be shown the donors available in the closest proximity</p>
+                                        </div>
+                                    </div>
+                                    <div class="wh-item bloodblock">
+                                        <div class="wh-icon">
+
+                                            <i class="flaticon-quality"></i>
+                                        </div>
+                                        <div class="wh-text">
+                                            <h3><a href="services-one.html">Real-time Connect:</a></h3>
+                                            <p>No delays in receiving blood anymore. Connect with donors and recipients in real-time</p>
+                                        </div>
+                                    </div>
+                                @*    <div class="wh-item bloodblock">
+                                        <div class="wh-icon ">
+                                            <i class="flaticon-energy"></i>
+                                        </div>
+                                        <div class="wh-text">
+                                            <h3><a href="about.html">Notifications:</a></h3>
+                                            <p>Get updates on blood requests so that you are informed the moment a donor is available or a request is made</p>
+                                        </div>
+                                    </div>*@
+                                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Feature Section Start -->
+        <section class="feature-wrap style3 ptb-100">
+            <div class="container">
+                <div class="section-title style1 text-center mb-40">
+                <span>Blood Request</span>
+                @*<h2 class="text-white">Our High Quality Projects</h2*@>
+            </div>
+                <div class="row gx-5">
+                    <div class="col-xl-5 col-lg-12">
+                    
+                    <div class="about-img-wrap">
+                       @* <img src="assets/img/about/about-img-5.png" alt="Image">*@
+                        <img src="~/css/img/about/about-img-5.png" alt="IMage" class="about-shape-3">
+                    </div>
+                
+                    </div>
+                    <div class="col-xl-7 col-lg-12">
+                        <div class="feature-slider-one owl-carousel">
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                    <div class="feature-info">
+                                        
+                                        <p>Download the UBlood app and spread the happiness of giving!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                   
+                                    <div class="feature-info">
+                                        <p>On International Women's Day, we want to recognize the incredible contributions that women make in healthcare, part… </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                   
+                                    <div class="feature-info">
+                                       
+                                        <p>Many people still lack knowledge about their health.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2">
+                           
+                                    <div class="feature-info">
+                                   
+                                        <p>You think you are in control of your situations. You’re not! Don’t be ignorant, think of tmrw and download UBlood t… </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br /><br />
+                         <div class="feature-slider-one owl-carousel">
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                    <div class="feature-info">
+                                        
+                                        <p>Download the UBlood app and spread the happiness of giving!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                   
+                                    <div class="feature-info">
+                                        <p>On International Women's Day, we want to recognize the incredible contributions that women make in healthcare, part… </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2 feature-card1">
+                                   
+                                    <div class="feature-info">
+                                       
+                                        <p>Many people still lack knowledge about their health.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="feature-card style2">
+                           
+                                    <div class="feature-info">
+                                   
+                                        <p>You think you are in control of your situations. You’re not! Don’t be ignorant, think of tmrw and download UBlood t… </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Feature Section End -->
+    <!-- Service Section Start -->
+    <section class="service-wrap style3 pt-100 pb-75">
+        <div class="container">
+             <div class="section-title style1 text-center mb-40">
+                <span>Tips</span>
+                <h2 class="text-white">Tips</h2
+            </div>
+            <div class="row gx-5">
+
+                <div class="col-xl-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-card style3">
+                              @*  <div class="service-card-icon">
+                                    <i class="flaticon-building"></i>
+                                </div>*@
+                                <div class="service-info">
+                                    @*<span class="service-icon over-lay">
+                                        <i class="flaticon-building"></i>
+                                    </span>*@
+                                    <h3><a href="service-details.html">The day before</a></h3>  <hr />
+                                    <ul>
+                                        <li>Have an iron-rich diet such as beans, spinach or meat, poultry.</li>
+                                        <li>Have a proper sleep of at least 8 hours.</li>
+                                        <li>Include more liquids in your diet</li>
+                                    </ul>
+                          @*          <p>
+                                        There are many variations of the lorem sit amet available but this
+                                        majority
+                                        have suffered dolor amet magna aliqua sit.
+                                    </p>*@
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-card style3">
+                               @* <div class="service-card-icon">
+                                    <i class="flaticon-engineering"></i>
+                                </div>*@
+                                <div class="service-info">
+                                 @*   <span class="service-icon over-lay">
+                                        <i class="flaticon-engineering"></i>
+                                    </span>*@
+                                    <h3><a href="service-details.html">On the Donation day</a></h3>  <hr />
+                                    <li>Do carry your identify identification forms e.g. driver’s license</li>
+                                        <li>Drink 2 cups of water before donating blood</li>
+                                        <li>Wear a half sleeve shirt so that you can easily roll it up avoid fast food before donation</li>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-card style3">
+                               @* <div class="service-card-icon">
+                                    <i class="flaticon-engineer"></i>
+                                </div>*@
+                                <div class="service-info">
+@*                                    <span class="service-icon over-lay">
+                                        <i class="flaticon-engineer"></i>
+                                    </span>*@
+                                    <h3><a href="service-details.html">After the Donation</a></h3>
+                                    <hr />
+                                    <li>Reward yourself with a snack as refreshment immediately.</li>
+                                        <li>Drink more liquids over a period of 24 hours</li>
+                                        <li>Remove the bandage after few hours</li>
+                                        <li>Don’t do vigorous workout & give your body rest</li>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+            <!-- Blog Section Start -->
+        <section class="blog-wrap pt-100 pb-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3 col-lg-12 offset-lg-1">
+                        <div class="section-title style1 text-center mb-40">
+                            <span>Blog</span>
+                            <h6 style="color:black">UBlood offers a platform to connect volunteering blood donors and recipients. Blood donation has been prevalent for ages, however it is always a challenge to find the right donor at the right time.
+                                Blood donation through the years has become easier. @*For us to succeed in this noble effort of saving lives we are guided by multiple doctors and academics who are experts in the blood donation segment. Their passion and responsibility towards saving lives are depicted in these blogs below.*@</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="blog-card style3">
+                            <div class="blog-img">
+                                <img src="~/css/img/blog//b1.jpg" alt="Image">
+                            </div>
+                            <div class="blog-info">
+                               
+                            
+                                <h3 class="blog-title"><a href="blog-details-left-sidebar.html">Benefits of blood donation</a></h3>
+                                <a href="blog-details-left-sidebar.html" class="link style2">Read More <i
+                                        class="flaticon-right-arrow-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="blog-card style3">
+                            <div class="blog-img">
+                                <img src="~/css/img/blog//b2.jpg" alt="Image">
+                            </div>
+                            <div class="blog-info">
+                                
+                                <h3 class="blog-title"><a href="blog-details-left-sidebar.html">A Mighty Challenge Blood Crisis in Corona Times</a></h3>
+                                <a href="blog-details-left-sidebar.html" class="link style1">Read More <i
+                                        class="flaticon-right-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="blog-card style3">
+                            <div class="blog-img">
+                                <img src="~/css/img/blog//b3.jpg" alt="Image">
+                            </div>
+                            <div class="blog-info">
+                               
+                                <h3 class="blog-title"><a href="blog-details-left-sidebar.html">How can Technology help to reduce blood crisis in hard times?</a></h3>
+                                <a href="blog-details-left-sidebar.html" class="link style2">Read More <i
+                                        class="flaticon-right-arrow-1"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Section End -->
+    @*  <!-- Feature Section End -->
+    <!-- About Section Start -->
+   
+    <!-- Service Section Start -->
+    <section class="service-wrap style3 pt-100 pb-75">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-xl-4 col-lg-12">
+                    <div class="section-title style1">
+                        <span>OUR SERVICES</span>
+                        <h2>We Provide High Quality Services</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eum sequi facilis
+                            adipisci iure? Incidunt natus veritatis ad ullam. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Tempore, ipsum sit et excepturi corporis molestias.
+                        </p>
+                        <a href="services-one.html" class="btn style1 lg-none">View All Services</a>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="service-card style3">
+                                <div class="service-card-icon">
+                                    <i class="flaticon-building"></i>
+                                </div>
+                                <div class="service-info">
+                                    <span class="service-icon over-lay">
+                                        <i class="flaticon-building"></i>
+                                    </span>
+                                    <h3><a href="service-details.html">Building Construction</a></h3>
+                                    <p>
+                                        There are many variations of the lorem sit amet available but this
+                                        majority
+                                        have suffered dolor amet magna aliqua sit.
+                                    </p>
+                                    <a href="service-details.html" class="link style1">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="service-card style3">
+                                <div class="service-card-icon">
+                                    <i class="flaticon-engineering"></i>
+                                </div>
+                                <div class="service-info">
+                                    <span class="service-icon over-lay">
+                                        <i class="flaticon-engineering"></i>
+                                    </span>
+                                    <h3><a href="service-details.html">Construction Planning</a></h3>
+                                    <p>
+                                        There are many variations of the lorem sit amet available but this
+                                        majority
+                                        have suffered dolor amet magna aliqua sit.
+                                    </p>
+                                    <a href="service-details.html" class="link style1">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="service-card style3">
+                                <div class="service-card-icon">
+                                    <i class="flaticon-engineer"></i>
+                                </div>
+                                <div class="service-info">
+                                    <span class="service-icon over-lay">
+                                        <i class="flaticon-engineer"></i>
+                                    </span>
+                                    <h3><a href="service-details.html">Automotive Engineering</a></h3>
+                                    <p>
+                                        There are many variations of the lorem sit amet available but this
+                                        is majority have suffered dolor amet magna aliqua amet.
+                                    </p>
+                                    <a href="service-details.html" class="link style1">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="service-card style3">
+                                <div class="service-card-icon">
+                                    <i class="flaticon-renovation"></i>
+                                </div>
+                                <div class="service-info">
+                                    <span class="service-icon over-lay">
+                                        <i class="flaticon-renovation"></i>
+                                    </span>
+                                    <h3><a href="service-details.html">Building Renovation</a></h3>
+                                    <p>
+                                        There are many variations of the lorem sit amet available but this
+                                        is majority have suffered dolor amet magna aliqua amet.
+                                    </p>
+                                    <a href="service-details.html" class="link style1">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 xl-none text-center">
+                    <a href="services-one.html" class="btn style1 lg-none">View All Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+    <!-- Projcet Section Start -->
+    <div class="project-wrap style3 pt-100 ">
+        <div class="project-bg bg-f">
+            <div class="overlay op-96 bg-blue"></div>
+        </div>
+        <div class="container">
+            <div class="section-title style1 text-center mb-40">
+                <span>OUR PROJECTS</span>
+                <h2 class="text-white">Our High Quality Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="project-slider-two owl-carousel">
+                        <div class="item">
+                            <div class="project-card style1">
+                                <div class="project-img">
+                                    <img src="assets/img/projects/project-1.jpg" alt="Image">
+                                    <div class="project-info">
+                                        <a class="project-view" href="project-details.html">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                        <span><i class="flaticon-pin"></i>CALIFORNIA</span>
+                                        <h3><a href="project-details.html">Wilson & Taylor Hall</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="project-card style1">
+                                <div class="project-img">
+                                    <img src="assets/img/projects/project-2.jpg" alt="Image">
+                                    <div class="project-info">
+                                        <a class="project-view" href="project-details.html">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                        <span><i class="flaticon-pin"></i>Florida</span>
+                                        <h3><a href="project-details.html">Riche Apartment</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="project-card style1">
+                                <div class="project-img">
+                                    <img src="assets/img/projects/project-3.jpg" alt="Image">
+                                    <div class="project-info">
+                                        <a class="project-view" href="project-details.html">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                        <span><i class="flaticon-pin"></i>Kentucky</span>
+                                        <h3><a href="project-details.html">Shopping Mall</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="project-card style1">
+                                <div class="project-img">
+                                    <img src="assets/img/projects/project-4.jpg" alt="Image">
+                                    <div class="project-info">
+                                        <a class="project-view" href="project-details.html">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                        <span><i class="flaticon-pin"></i>Luiziana</span>
+                                        <h3><a href="project-details.html">Wilson Warehouse</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="project-card style1">
+                                <div class="project-img">
+                                    <img src="assets/img/projects/project-5.jpg" alt="Image">
+                                    <div class="project-info">
+                                        <a class="project-view" href="project-details.html">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                        <span><i class="flaticon-pin"></i>Gorgia</span>
+                                        <h3><a href="project-details.html">Wilson Apartment</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projcet Section End -->
+    <!-- Why Choose Us Section Start -->
+    <div class="why-choose-wrap style3 pt-100 pb-100 pos-rel">
+        <div class="container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-xl-6">
+                    <div class="simple-img-wrap style3">
+                        <img src="assets/img/why-choose-us/wh-shape-2.png" alt="Image" class="simple-shape">
+                        <img src="assets/img/why-choose-us/wh-img-5.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="wh-choose-content">
+                        <div class="content-title style1 mb-40">
+                            <span>WHY CHOOSE US</span>
+                            <h2>Three Main Categories Of Construction Solutions</h2>
+                        </div>
+                        <div class="wh-item-wrap style1">
+                            <div class="wh-item">
+                                <div class="wh-icon">
+                                    <i class="flaticon-gear"></i>
+                                </div>
+                                <div class="wh-text">
+                                    <h3><a href="services-one.html">Expert &amp; Professional Team</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consecte iscing elit, sed elite
+                                        eiusmod tempor incididunt lorem amet sit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="wh-item">
+                                <div class="wh-icon">
+
+                                    <i class="flaticon-quality"></i>
+                                </div>
+                                <div class="wh-text">
+                                    <h3><a href="services-one.html">High Performance Capability</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consecte iscing elit, sed elite
+                                        eiusmod tempor incididunt lorem amet sit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="wh-item">
+                                <div class="wh-icon ">
+                                    <i class="flaticon-energy"></i>
+                                </div>
+                                <div class="wh-text">
+                                    <h3><a href="about.html">Better Strategy &amp; Quality Work</a></h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consecte iscing elit, sed elite
+                                        eiusmod tempor incididunt lorem amet sit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Us Section End -->
+    <!-- Partner Section Start -->
+    <div class="partner-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="partner-slider owl-carousel">
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-1.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-2.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-3.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-4.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-5.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="partner-item">
+                                <img src="assets/img/partner/partner-6.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partner Section End -->
+    <!-- Team Section Start -->
+    <section class="team-wrap  pt-100 pb-75">
+        <div class="container">
+            <div class="section-title style1 text-center mb-40">
+                <span>OUR TEAM</span>
+                <h2>Meet Our Professional Team</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-slider-one owl-carousel">
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-1.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Michel Jhon</h5>
+                                    <p>Cheif Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-2.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Ema Watson</h5>
+                                    <p>Civil Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-3.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Kim Lili</h5>
+                                    <p>Marketing Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-4.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Pery Henry</h5>
+                                    <p>Senior Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-5.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Sarah Hena</h5>
+                                    <p>Senior Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member-card style3">
+                                <div class="member-img">
+                                    <img src="assets/img/team/member-6.jpg" alt="Image">
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a target="_blank" href="https://facebook.com/">
+                                                <i class="flaticon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/">
+                                                <i class="flaticon-twitter-1"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://pinterest.com/">
+                                                <i class="flaticon-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://instagram.com/">
+                                                <i class="flaticon-instagram-1"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="member-info">
+                                    <h5>Khon Stwert</h5>
+                                    <p>Senior Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+    <!-- Testimonial Section Start -->
+    <section class="testimonial-wrap style3 bg-f testimonial-bg-1 ptb-100">
+        <div class="overlay bg-blue op-95"></div>
+        <div class="container">
+            <div class="section-title style1 text-center mb-40">
+                <span>TESTIMONIALS</span>
+                <h2 class="text-white">See What People Say About Us</h2>
+            </div>
+            <div class="testimonial-slider-one owl-carousel">
+                <div class="item">
+                    <div class="testimonial-item style3">
+                        <ul class="ratings list-style">
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star"></i></li>
+                        </ul>
+                        <div class="client-quote">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adicing elit. Ipsa autem, amet
+                                obcati fugiat et aliquam dicta, voluptatem numquam.
+                            </p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <div class="client-info-wrap">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonials/client-1.jpg" alt="Image">
+                                </div>
+                                <div class="client-info">
+                                    <h5>Cody Milton</h5>
+                                    <span>Psychologist</span>
+                                </div>
+                            </div>
+                            <div class="quote-icon">
+                                <i class="flaticon-quote-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item style3">
+                        <ul class="ratings list-style">
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star"></i></li>
+                        </ul>
+                        <div class="client-quote">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adicing elit. Ipsa autem, amet
+                                obcati fugiat et aliquam dicta, voluptatem numquam.
+                            </p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <div class="client-info-wrap">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonials/client-2.jpg" alt="Image">
+                                </div>
+                                <div class="client-info">
+                                    <h5>Michel Runald</h5>
+                                    <span>Civil Engineer</span>
+                                </div>
+                            </div>
+                            <div class="quote-icon">
+                                <i class="flaticon-quote-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item style3">
+                        <ul class="ratings list-style">
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star"></i></li>
+                        </ul>
+                        <div class="client-quote">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adicing elit. Ipsa autem, amet
+                                obcati fugiat et aliquam dicta, voluptatem numquam.
+                            </p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <div class="client-info-wrap">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonials/client-3.jpg" alt="Image">
+                                </div>
+                                <div class="client-info">
+                                    <h5>Tony Stark</h5>
+                                    <span>Designer</span>
+                                </div>
+                            </div>
+                            <div class="quote-icon">
+                                <i class="flaticon-quote-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-item style3">
+                        <ul class="ratings list-style">
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star-1"></i></li>
+                            <li><i class="flaticon-star"></i></li>
+                        </ul>
+                        <div class="client-quote">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adicing elit. Ipsa autem, amet
+                                obcati fugiat et aliquam dicta, voluptatem numquam.
+                            </p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <div class="client-info-wrap">
+                                <div class="client-img">
+                                    <img src="assets/img/testimonials/client-4.jpg" alt="Image">
+                                </div>
+                                <div class="client-info">
+                                    <h5>Steve Mark</h5>
+                                    <span>Doctor</span>
+                                </div>
+                            </div>
+                            <div class="quote-icon">
+                                <i class="flaticon-quote-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+    <!-- History Section Start -->
+    <section class="history-wrap pt-100">
+        <div class="container">
+            <div class="section-title style1 text-center mb-40">
+                <span>OUR HISTORY</span>
+                <h2>We Covered Almost All Prizes</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs history-tablist" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab_1"
+                                    type="button" role="tab">
+                                1980-1990
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_2" type="button"
+                                    role="tab">
+                                1991-2000
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_3" type="button"
+                                    role="tab">
+                                2001-2010
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_4" type="button"
+                                    role="tab">
+                                2011-2020
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content product-tab-content">
+                        <div class="tab-pane fade show active" id="tab_1" role="tabpanel">
+                            <div class="history-tab-content">
+                                <div class="history-text">
+                                    <h3>
+                                        An Award Winning Construction Service Company With 100% Customer
+                                        Satisfaction
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim at
+                                        non commodi, repudiandae magni ipsam consectetur ducimus, facilis soluta
+                                        recusandae perspiciatis necessitatibus obcaecati tempore dicta perferen.
+                                    </p>
+                                    <div class="progressbar-wrap">
+                                        <div class="progress-bar" data-percentage="92%">
+                                            <h4 class="progress-title-holder">
+                                                <span class="progress-title">Completed Project</span>
+                                                <span class="progress-number-wrapper">
+                                                    <span class="progress-number-mark">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                </span>
+                                            </h4>
+                                            <div class="progress-content-outter">
+                                                <div class="progress-content"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="history-video bg-f history-bg-1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab_2" role="tabpanel">
+                            <div class="history-tab-content">
+                                <div class="history-text">
+                                    <h3>We Have Experience Of Managing Over Hundreds Of Projects Successfully</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim at
+                                        non commodi, repudiandae magni ipsam consectetur ducimus, facilis soluta
+                                        recusandae perspiciatis necessitatibus obcaecati tempore dicta perferen.
+                                    </p>
+                                    <div class="progressbar-wrap">
+                                        <div class="progress-bar" data-percentage="85%">
+                                            <h4 class="progress-title-holder clearfix">
+                                                <span class="progress-title">Project Management</span>
+                                                <span class="progress-number-wrapper">
+                                                    <span class="progress-number-mark">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                </span>
+                                            </h4>
+                                            <div class="progress-content-outter">
+                                                <div class="progress-content"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="history-video bg-f history-bg-2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab_3" role="tabpanel">
+                            <div class="history-tab-content">
+                                <div class="history-text">
+                                    <h3>
+                                        We Have Some Of The Most Talented &amp; Professional Architect Who Are Ready
+                                        To Serve You
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim at
+                                        non commodi, repudiandae magni ipsam consectetur ducimus, facilis soluta
+                                        recusandae perspiciatis necessitatibus obcaecati tempore dicta perferen.
+                                    </p>
+                                    <div class="progressbar-wrap">
+                                        <div class="progress-bar" data-percentage="75%">
+                                            <h4 class="progress-title-holder clearfix">
+                                                <span class="progress-title">Architecture</span>
+                                                <span class="progress-number-wrapper">
+                                                    <span class="progress-number-mark">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                </span>
+                                            </h4>
+                                            <div class="progress-content-outter">
+                                                <div class="progress-content"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="history-video bg-f history-bg-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab_4" role="tabpanel">
+                            <div class="history-tab-content">
+                                <div class="history-text">
+                                    <h3>
+                                        We Are The Leader In Construction Business And Completed
+                                        100+ Projects Successfully
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim at
+                                        non commodi, repudiandae magni ipsam consectetur ducimus, facilis soluta
+                                        recusandae perspiciatis necessitatibus obcaecati tempore dicta perferen.
+                                    </p>
+                                    <div class="progressbar-wrap">
+                                        <div class="progress-bar" data-percentage="80%">
+                                            <h4 class="progress-title-holder clearfix">
+                                                <span class="progress-title">Engineering</span>
+                                                <span class="progress-number-wrapper">
+                                                    <span class="progress-number-mark">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                </span>
+                                            </h4>
+                                            <div class="progress-content-outter">
+                                                <div class="progress-content"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="history-video bg-f history-bg-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- History Section End -->
+    <!-- Blog Section Start -->
+    <section class="blog-wrap pt-100 pb-75">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+                    <div class="section-title style1 text-center mb-40">
+                        <span>LATEST BLOG</span>
+                        <h2>Our Latest Insights Are On Top All Times</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="blog-card style3">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/blog-1.jpg" alt="Image">
+                        </div>
+                        <div class="blog-info">
+                            <a class="blog-date" href="posts-by-date.html">
+                                01 August
+                            </a>
+                            <ul class="blog-metainfo list-style">
+                                <li>
+                                    <i class="flaticon-user-2"></i><a href="posts-by-author.html">Phill Heath</a>
+                                </li>
+                                <li>
+                                    <i class="flaticon-conversation"></i>No Comments
+                                </li>
+                            </ul>
+                            <h3 class="blog-title">
+                                <a href="blog-details-left-sidebar.html">
+                                    Some Inportant Rules To
+                                    Start A New Building
+                                </a>
+                            </h3>
+                            <a href="blog-details-left-sidebar.html" class="link style2">
+                                Read More <i class="flaticon-right-arrow-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="blog-card style3">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/blog-3.jpg" alt="Image">
+                        </div>
+                        <div class="blog-info">
+                            <a class="blog-date" href="posts-by-date.html">
+                                05 July
+                            </a>
+                            <ul class="blog-metainfo list-style">
+                                <li>
+                                    <i class="flaticon-user-2"></i><a href="posts-by-author.html">Tony Stark</a>
+                                </li>
+                                <li>
+                                    <i class="flaticon-conversation"></i>No Comments
+                                </li>
+                            </ul>
+                            <h3 class="blog-title">
+                                <a href="blog-details-left-sidebar.html">
+                                    5 High Performance
+                                    Service For Construction
+                                </a>
+                            </h3>
+                            <a href="blog-details-left-sidebar.html" class="link style1">
+                                Read More <i class="flaticon-right-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="blog-card style3">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/blog-2.jpg" alt="Image">
+                        </div>
+                        <div class="blog-info">
+                            <a class="blog-date" href="posts-by-date.html">
+                                12 June
+                            </a>
+                            <ul class="blog-metainfo list-style">
+                                <li>
+                                    <i class="flaticon-user-2"></i><a href="posts-by-author.html">Phill Heath</a>
+                                </li>
+                                <li>
+                                    <i class="flaticon-conversation"></i>No Comments
+                                </li>
+                            </ul>
+                            <h3 class="blog-title">
+                                <a href="blog-details-left-sidebar.html">
+                                    Reduce Your Construction
+                                    Costs With 5 Tips
+                                </a>
+                            </h3>
+                            <a href="blog-details-left-sidebar.html" class="link style2">
+                                Read More <i class="flaticon-right-arrow-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+</div>
+<!-- Page wrapper End -->*@
+    <!-- Footer Section Start -->
+    <footer class="footer-wrap bg-f footer-bg-1 fixed-footer">
+        <div class="overlay op-96 bg-blue"></div>
+        <div class="footer-top pt-0 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-widget-wrap">
+                        <div class="footer-widget">
+                            <a href="index.html" class="footer-logo">
+                                <img src="~/css/img/logo-h.png" alt="Image">
+                            </a>
+                           
+
+                        </div>
+                        <div class="footer-widget"></div>
+                        <div class="footer-widget"> </div>
+                        <div class="footer-widget">
+                            <div class="social-box">
+                                <ul class="social-profile style1 list-style" style="padding:50px">
+                                    <li><a target="_blank" href="https://facebook.com/"><i class="flaticon-facebook"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://twitter.com/"> <i
+                                                class="flaticon-twitter-1"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://instagram.com/"> <i
+                                                class="flaticon-instagram-1"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="border-top: 1px solid red;">
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>© Copyrights 2020 UBlood, All rights reserved. <a href="https://envytheme.com/" target="_blank"></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+<!-- Footer Section End -->
+<!-- Back-to-top button Start -->
+<a href="javascript:void(0)" class="back-to-top"><i class="las la-arrow-up"></i></a>
+<!-- Back-to-top button End -->
+<!-- Link of JS files -->
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/form-validator.min.js"></script>
+<script src="~/js/contact-form-script.js"></script>
+<script src="~/js/aos.js"></script>
+<script src="~/js/owl.carousel.min.js"></script>
+<script src="~/js/jquery-magnific-popup.js"></script>
+<script src="~/js/fancybox.js"></script>
+<script src="~/js/progressbar.min.js"></script>
+<script src="~/js/jquery.appear.js"></script>
+<script src="~/js/tweenmax.min.js"></script>
+<script src="~/js/main.js"></script>
+<script>
+const names = document.querySelectorAll('.name');
+const languages = ['en', 'hi', 'te'];
+let i = 0;
+let j = 0;
+
+function showName() {
+  names[i].style.display = 'none';
+  i++;
+  if (i >= names.length) {
+    i = 0;
+    j++;
+    if (j >= languages.length) {
+      j = 0;
+    }
+  }
+  names[i].style.display = 'inline-block';
+  names[i].lang = languages[j];
+  setTimeout(showName, 3000);
+}
+
+setTimeout(() => {
+  names[0].style.display = 'inline-block';
+  setInterval(() => {
+    showName();
+  }, 9000);
+}, 1000);
+
+</script>
